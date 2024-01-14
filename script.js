@@ -5,7 +5,7 @@ const AUTHOR = document.querySelector(".meme-generator .author");
 const ANCHOR = document.querySelector(".meme-generator .anchor");
 const SUBREDDIT = document.querySelector(".subreddit")
 
-const subreddits = ["dankmemes", "indiandankmemes", "memes", "wholesomememes", "meme", "marvelmemes"];
+const subreddits = ["dankmemes", "indiandankmemes", "memes", "wholesomememes", "meme", "marvelmemes", "dcmemes"];
 
 const getRandomSubreddit = () => {
     const randomIndex = Math.floor(Math.random() * subreddits.length);
